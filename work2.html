@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Work 2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#works">Works</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Sarah's Shop</h1>
+    <section id="overview2">
+        <h2>Overview</h2>
+        <p>For this project, I was tasked with creating a list-based interface that users can sort and filter on based on a competetive analysis. The interface was made using React. The project allowed me to learn how to identify strengths and weaknesses in design elements employed by industry designers and practice using a reactive framework for frontend development.</p>
+        <p>I created a website called <a href="https://clothing-store-sepia.vercel.app/">Sarah's Shop</a> that listed clothing items for sale. Users can filter clothes by gender (Men or Women) and type (Shirts or Pants). They can also sort by price (low to high). I also created an aggregate shopping cart that users can add and remove from, all while seeing how many items are in their cart and how much their cart would cost. </p>
+    </section>
+    
+    <section id="research2">
+        <img src="./assets/chart.png" alt="Competitive Analysis Chart">
+        <div class="text">
+            <h2>Research</h2>
+            <p>Before I began coding, I selected three different websites with a favoriting function to perform a competitive analysis of. This was to provide inspiration for my aggregating feature.</p>
+            <p>The three websites I chose were <a href="https://us.shein.com/">Shein</a>, <a href="https://www.airbnb.com/">Airbnb</a>, and <a href="https://www2.hm.com/en_us/index.html">H&M</a>.</p>
+            <h3>Interesting Takeways</h3>
+            <ul>
+                <li>Accessing Airbnb's wishlist was less intuitive than the other two websites. While someone is browsing clothing on Shein and H&M, the button that leads to the favorites list is visible the entire time. Meanwhile, with Airbnb, you have to navigate to a drop down menu to find it, meaning users might not ever be aware there is a wishlist.</li>
+                <li>Shein and Airbnb's websites allowed users to sort their favorites list/wishlist. This feature does not exist for the H&M favoriting page. This might make it hard for users to browse through a large wishlist.</li>
+            </ul>
+        </div>
+        <h3>Borrowed Features</h3>
+            <ul>
+                <p>Based on these websites, there are a few features I attempted to implement for my website:</p>
+                <li>When creating my buttons, I added a hovering feature that distinguishes buttons from non-buttons. Creating a visible change when users hover over buttons makes it clear that a button is a button. For my website, when users hover over the buttons, they turn from black to gray. I also liked the aesthetic of the white buttons outlined in black used by all three websites, so I used that as well.</li>
+                <li>I added a button that sorts items by low to high price, like Shein does with their Favorites page, but will extend this feature to the entire page. This will allow users to find the cheapest options they want, and combined with the filters, they will be able to find the cheapest items of a specific type.</li>
+                <li>I  liked that all of the website's aggregators not only stored the title of the item, but also the image. This allows users to remember what items are actually saved, as sometimes titles may not be enough. I coded by website so that each item in the shopping cart has both a title and an image.</li>
+            </ul>
+    </section>
+    
+    
+    <section id="solution2">
+        <h2>Design Choices</h2>
+        <ul>
+            <li>I chose to implement a filter system with checkboxes, so when the page is first opened all categories are checked off. </li>
+            <li>I chose to not make the categories mutually exclusive (i.e. users can look at both men and women's clothing at once). This allows flexibility. For example, if a user wants to look at all men's clothing but doesn't care if he was looking at shirts or pants, he could display those results.</li>
+            <li>I also allowed the user to both clear the cart entirely and also delete individual items.</li>
+        </ul>
+    </section>
+
+
+    <section id="gallery2">
+        <h2>Gallery</h2>
+        <img src="./assets/figma1.png" alt="Work 2" class="work-image">
+        <img src="./assets/figma2.png" alt="Work 2" class="work-image">
+
+    </section>
+
+    <section id="learnings2">
+        <h2>Learnings</h2>
+        <p>I gained skills in:</p>
+        <ul>
+            <li>JavaScript and React</li>
+            <li>competitive analysis</li>
+            <li>changing states</li>
+        </ul>
+        <p>In the future, I would improve this website by:</p>
+        <ul>
+            <li>linking items in shopping cart to its listing in inventory</li>
+            <li>supporting different sized clothes</li>
+            <li>preventing duplicate entries in the shopping cart while providing a counter for multiple items added</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; Sarah Onderdonk Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

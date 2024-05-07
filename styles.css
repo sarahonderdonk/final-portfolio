@@ -1,0 +1,357 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f9f9f9;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+section {
+    padding: 50px 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+
+
+}
+
+h2 {
+    color: #ff69b4;
+    text-align: left; /* Center align the text */
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+
+h3 {
+    color: #4A4A4A;
+    text-align: left; /* Center align the text */
+    font-weight: normal;
+    font-size: 25px;
+}
+
+p {
+    color: #4A4A4A;
+    font-size: 18px;
+    line-height: 2;
+}
+#works p {
+    color: #f9f9f9;
+}
+
+
+/* Adjust spacing for list items */
+ul li {
+    margin-bottom: 10px; /* Add bottom margin to create space between list items */
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+/* Adjust spacing for nested lists */
+ul ul {
+    margin-top: 5px; /* Add top margin to nested unordered lists */
+    margin-bottom: 5px; /* Add bottom margin to nested unordered lists */
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 10%;
+}
+
+.intro-text p {
+    color: #4A4A4A;
+    font-size: 24px; /* Adjust the font size */
+
+}
+
+.intro-text h1 {
+    color: #ff69b4; /* Pink color */
+    font-size: 35px; /* Adjust the font size */
+    font-weight: normal;
+}
+
+.intro-image {
+    max-width: 25%;
+    max-height: 50%;
+    padding-right: 10%;
+}
+
+.intro-image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+}
+
+footer {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+}
+
+.work {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 30px;
+}
+
+.work-info h3 {
+    color: #f9f9f9;
+
+}
+
+.work-image {
+    flex: 0 0 auto; /* Allow the image to grow or shrink */
+    width: 50%; /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit the dimensions */
+}
+
+.work-info {
+    flex: 1;
+    display: flex; /* Use flexbox for .work-info */
+    flex-direction: column; /* Align children vertically */
+    margin-left: 0; /* Adjust margin as needed */
+    background-color: #ffc0cb; /* Set background color */
+    padding-left: 100px; /* Add padding to the text container */
+    padding-right: 100px;
+    justify-content: center; /* Center content vertically */
+    width: 50%;
+    height: 500px;
+    color: #f9f9f9;
+}
+
+#works h2 {
+    text-align: center;
+}
+
+#resume h2 {
+    text-align: center;
+}
+
+iframe {
+    border: none;
+}
+
+img {
+    margin-right: 20px; /* Add some space between the image and text */
+    width: 25%;
+}
+
+
+
+/*work 1*/
+#overview1 img {
+    float: right;
+    margin-left: 20px;
+    width: 25%;
+}
+
+#process1 img:nth-of-type(1),
+#process1 img:nth-of-type(2) {
+    float: right; /* Float the first two images to the right */
+    margin-left: 20px; /* Add some left margin to create space between the text and image */
+    margin-bottom: 20px; /* Add some bottom margin to create space between the images */
+    width: 15%;
+}
+
+#process1 img:nth-of-type(3) {
+    float: right; /* Float the third image to the right */
+    width: 50%; /* Set the width of the third image to 50% of its container */
+    margin-left: 20px; /* Add left margin to create space between the second image and the third image */
+    margin-bottom: 20px; /* Add bottom margin to create space between the image and the paragraph below */
+}
+
+
+#process1 p {
+    margin-left: 0; /* Reset margin to 0 */
+    margin-right: 0; /* Reset margin to 0 */
+    margin-bottom: 20px;
+}
+
+#solution1 img{
+    width: 50%;
+    display: block; /* Ensure the image behaves like a block-level element */
+    margin: 0 auto; /* Set top and bottom margins to 0, and left and right margins to auto */
+
+}
+
+
+/*work 2*/
+
+#research2 {
+    overflow: hidden; /* Clear floats */
+}
+
+#research2 .text {
+    width: calc(50% - 20px); /* Set the width of the text container */
+    margin-left: 20px; /* Add left margin to separate text from the image */
+}
+
+#research2 img {
+    margin-bottom: 20px;
+    float: right; /* Float the image to the right */
+    width: 48%; /* Set the width of the image */
+    margin-left: 20px; /* Add left margin to separate image from text */
+}
+
+
+
+#gallery2 img {
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 60%; /* Set the width of the image */
+}
+
+
+/*work 3*/
+
+.partiful-holder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll; 
+    position: relative;
+    box-sizing: border-box; 
+    border-right: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.partiful-holder img{
+    width:30%;
+    height: auto;
+    margin-right: 2%;
+    
+}
+
+.sketches-holder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll; 
+    position: relative;
+    box-sizing: border-box; 
+    border-right: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.sketches-holder img{
+    width:30%;
+    height: auto;
+    margin-right: 2%;
+    
+}
+
+.lofi-holder img {
+    width:30%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.lofi-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll; 
+    position: relative;
+    box-sizing: border-box; 
+    border-right: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.hifi-holder img {
+    width:30%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.hifi-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll; 
+    position: relative;
+    box-sizing: border-box; 
+    border-right: 1px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.style-container {
+    display: flex;
+    align-items: center;
+}
+
+.style-text {
+    flex: 1;
+    padding-right: 10px; /* Adjust padding between text and image */
+    margin-right: 10px; /* Adjust margin between text and container */
+    align-self: flex-start; 
+}
+
+.style-image {
+    flex: 1;
+    text-align: right;
+}
+
+.style-image img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    /* max-width: 400px; Set a maximum width for the image */
+}
+
+.feedback-holder img {
+    width:30%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.feedback-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
