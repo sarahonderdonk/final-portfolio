@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ffc0cb;
+    background-color: #FF80AB;
     padding: 20px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-    color: #ff69b4;
+    color: #D81B60;
     text-align: left; /* Center align the text */
     font-weight: normal;
     font-size: 30px;
@@ -106,7 +106,7 @@ ul ul {
 }
 
 .intro-text h1 {
-    color: #ff69b4; /* Pink color */
+    color: #D81B60; /* Pink color */
     font-size: 35px; /* Adjust the font size */
     font-weight: normal;
 }
@@ -123,7 +123,7 @@ ul ul {
 }
 
 footer {
-    background-color: #ffc0cb;
+    background-color: #FF80AB;
     padding: 20px;
     text-align: center;
 }
@@ -151,7 +151,7 @@ footer {
     display: flex; /* Use flexbox for .work-info */
     flex-direction: column; /* Align children vertically */
     margin-left: 0; /* Adjust margin as needed */
-    background-color: #ffc0cb; /* Set background color */
+    background-color: #FF80AB; /* Set background color */
     padding-left: 100px; /* Add padding to the text container */
     padding-right: 100px;
     justify-content: center; /* Center content vertically */
