@@ -33,6 +33,16 @@ nav ul li a {
     color: #f9f9f9;
 }
 
+/* Styles for regular links */
+#works a {
+    color: #f9f9f9; /* Set the default color for links (light blue) */
+}
+
+/* Styles for links when hovered */
+#works a:hover {
+    color: #D81B60; /* Set the color for links when hovered (gold/yellow) */
+}
+
 section {
     padding: 50px 20px;
     width: 80%;
